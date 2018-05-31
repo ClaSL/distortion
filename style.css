@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+
+.bar-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.bar-wrapp {
+    background-color:lightyellow ;
+    width: 250px;
+    height: 80px;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    /*padding: 0 20px 0 20px;*/
+    bottom: 0;
+    color: red;
+    background-color: yellow;
+    width: 50px;
+    height: 100%;
+}
+
+.barnumber{
+}
