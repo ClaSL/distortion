@@ -21,10 +21,15 @@ async function loadScript() {
 
             if (myJson.inQueue>20){
                 document.querySelector('.text').textContent = `You'll turn to dust in this queue.. Go for a cocktail instead.`
+                document.querySelector('.bar').style.backgroundColor = "red";
+
             } else if (myJson.inQueue<7){
                 document.querySelector('.text').textContent = `Hurry up! It's now or never!`
+                document.querySelector('.bar').style.backgroundColor = "green";
+
             } else {
-                document.querySelector('.text').textContent = `Think about some good concersation topic to entertain the queue while waiting.`
+                document.querySelector('.text').textContent = `Think about a good conversation topic to entertain the queue while waiting.`
+                document.querySelector('.bar').style.backgroundColor = "yellow";
 
             }
 
